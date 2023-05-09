@@ -1,0 +1,41 @@
+.info{
+    padding: 30px;
+    color: #000;
+    background-color:#3792cb ;
+    font-size: 100px;
+}
+.body{
+    background-color: #05014a;
+}
+input{
+    border: 2px solid #05014a;
+    padding: 10px;
+    border-radius: 25px;
+}
+.movieCard{
+    height: 650px;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+.movieCard img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.movieCard figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.movieCard .overview{
+    position: absolute;
+    bottom: 100%;
+    left:  0;
+    width: 100%;
+    transition: all .4s ease-in-out;
+}
+.movieCard:hover .overview{
+    bottom: 0;
+}
